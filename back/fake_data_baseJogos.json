@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "titulo": "The Legend of Zelda: Breath of the Wild",
+    "descricao": "Aventura em mundo aberto com puzzles e exploração."
+  },
+  {
+    "id": 2,
+    "titulo": "God of War: Ragnarok",
+    "descricao": "Ação e mitologia nórdica em um jogo emocionante."
+  },
+  {
+    "id": 3,
+    "titulo": "Red Dead Redemption 2",
+    "descricao": "Far West, narrativa épica e mundo imersivo."
+  },
+  {
+    "id": 4,
+    "titulo": "Hollow Knight",
+    "descricao": "Metroidvania desafiador com atmosfera sombria."
+  },
+  {
+    "id": 5,
+    "titulo": "Stardew Valley",
+    "descricao": "Simulador de fazenda com RPG e relacionamentos."
+  },
+  {
+    "id": 6,
+    "titulo": "Minecraft",
+    "descricao": "Criatividade e sobrevivência em blocos infinitos."
+  },
+  {
+    "id": 7,
+    "titulo": "Elden Ring",
+    "descricao": "RPG de ação desafiador em um mundo aberto."
+  },
+  {
+    "id": 8,
+    "titulo": "Among Us",
+    "descricao": "Jogo de dedução social entre tripulantes e impostores."
+  },
+  {
+    "id": 9,
+    "titulo": "Celeste",
+    "descricao": "Plataforma com história emocional e desafios precisos."
+  },
+  {
+    "id": 10,
+    "titulo": "FIFA 23",
+    "descricao": "Simulador de futebol com gráficos realistas e modos online."
+  },
+  {
+    "id": 11,
+    "titulo": "Cyberpunk 2077",
+    "descricao": "RPG futurista com mundo aberto e narrativa profunda."
+  },
+  {
+    "id": 12,
+    "titulo": "Overwatch 2",
+    "descricao": "FPS por equipes com heróis variados e ação rápida."
+  },
+  {
+    "id": 13,
+    "titulo": "Fortnite",
+    "descricao": "Battle Royale colorido com construção e eventos ao vivo."
+  },
+  {
+    "id": 14,
+    "titulo": "The Witcher 3: Wild Hunt",
+    "descricao": "RPG de fantasia com narrativa rica e escolhas impactantes."
+  },
+  {
+    "id": 15,
+    "titulo": "Super Mario Odyssey",
+    "descricao": "Plataforma 3D criativo com mundos variados e divertidos."
+  },
+  {
+    "id": 16,
+    "titulo": "Resident Evil Village",
+    "descricao": "Terror de sobrevivência com ação e atmosfera tensa."
+  },
+  {
+    "id": 17,
+    "titulo": "Hades",
+    "descricao": "Roguelike com combate rápido e narrativa dinâmica."
+  },
+  {
+    "id": 18,
+    "titulo": "Valorant",
+    "descricao": "FPS competitivo com foco em estratégia e precisão."
+  },
+  {
+    "id": 19,
+    "titulo": "Genshin Impact",
+    "descricao": "RPG de ação gratuito com mundo aberto e personagens variados."
+  },
+  {
+    "id": 20,
+    "titulo": "Animal Crossing: New Horizons",
+    "descricao": "Simulador de vida relaxante em uma ilha personalizada."
+  }
+]
