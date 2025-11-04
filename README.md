@@ -1,4 +1,4 @@
-# Therion API Workshop
+# Therion Oficina API
 
 ## 📚 Descrição do Projeto
 
@@ -72,6 +72,24 @@ npm run dev
 
 ## 📘 Guia de Uso
 
+### Estrutura FETCH
+#### API sem Body e Header : 
+```js
+const response = await fetch(URL);
+      const data = await response.json();
+      console.log(data);
+```
+#### API com Body e Header : 
+```js
+const response = await fetch(URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...novoJogo, id: Date.now().toString() }),
+      });
+      const data = await response.json();
+```
+
+
 ### Consumindo APIs Públicas
 O componente `Buscar_gato.jsx` demonstra como fazer requisições para uma API pública de gatos. Você pode:
 - Ver como as requisições são estruturadas
@@ -94,9 +112,10 @@ O componente `CrudJogos.jsx` mostra como:
 
 ## 🧩 APIs Utilizadas
 
-- **API de Gatos**: Demonstração de consumo de API pública para obter imagens e fatos sobre gatos
+- **API de Gatos**: Demonstração de consumo de API pública para obter imagens e fatos sobre gatos (https://api.thecatapi.com/v1/images/search)
+- **API de Endereços**: Sistema para cadastro e validação de endereços (https://viacep.com.br/ws/${cep}/json/)
+- **API de PlaceHolder**: Utilização de dados simulados para front-end (https://jsonplaceholder.typicode.com/posts?_limit=3)
 - **API de Jogos**: API própria implementada no backend para gerenciamento de jogos
-- **API de Endereços**: Sistema para cadastro e validação de endereços
 
 ## 👨‍💻 Contribuindo
 
