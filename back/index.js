@@ -8,14 +8,7 @@ dotenv.config(); //Carrega as variáveis de ambiente do arquivo .env
 
 const app = express();
 const PORT = process.env.PORT || 4000; //Usa a variável de ambiente PORT ou 3000 como padrão 
-app.use(
-  cors({
-    origin: ["http://localhost:5173", "http://localhost:5174", "http://localhost:3000", process.env.CLIENT_URL || "*"],
-    credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-  })
-);
+app.use(); //TODO configurar cors 
 app.use(express.json());
 app.get('/', (req, res) => {
   res.send('API is running');
